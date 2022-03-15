@@ -2,10 +2,10 @@
 /**
  * main- prints _putchar
  * followed by a new line
- * return: Always 0 (Success)
+ * return: main
  */
 int main(void)
 {
-	printf ("_putchar\n");
+	printf("_putchar\n");
 	return (0);
 }
