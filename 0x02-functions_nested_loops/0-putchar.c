@@ -1,14 +1,19 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main- prints _putchar
- * followed by a new line
- * return: main
+ * main - print putchar
+ *
+ * Return: 0
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char txt[8] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+	{
+		putchar(txt[i]);
+	}
+	putchar('\n');
 	return (0);
 }
